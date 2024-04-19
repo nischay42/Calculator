@@ -76,3 +76,9 @@ body {
 #operator {
     color: #6dee0a;
 }
+
+.button:active,
+.button:focus {
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+}
