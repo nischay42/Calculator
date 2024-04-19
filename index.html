@@ -11,34 +11,34 @@
         <div class="output" >
             <input type="text" class="display" id="display" readonly/>
         </div>
-        <div class="buttons">
-            <button class="button" id="operator" onclick="displayClear()">C</button>
-            <button class="button" id="operator" onclick="toDisplay('%')">%</button>
-            <button class="button" id="operator" onclick="square()"><i>x</i><sup>2</sup></button>
-          <button class="button" id="operator" onclick="toDisplay('+')">+</button>
-        </div>
-        <div class="buttons">
-            <button class="button"  onclick="toDisplay('7')">7</button>
-            <button class="button"  onclick="toDisplay('8')">8</button>
-            <button class="button"  onclick="toDisplay('9')">9</button>
-            <button class="button" id="operator" onclick="toDisplay('-')">-</button>
-        </div>
-        <div class="buttons">
-            <button class="button" onclick="toDisplay('4')">4</button>
-            <button class="button" onclick="toDisplay('5')">5</button>
-            <button class="button" onclick="toDisplay('6')">6</button>
-            <button class="button" id="operator" onclick="toDisplay('*')">*</button>
-        </div>
-        <div class="buttons">
-            <button class="button" onclick="toDisplay('1')">1</button>
-            <button class="button" onclick="toDisplay('2')">2</button>
-            <button class="button" onclick="toDisplay('3')">3</button>
-            <button class="button" id="operator" onclick="toDisplay('/')"><i>/</i></button>
-        </div>
-        <div class="buttons">
-            <button class="button" onclick="toDisplay('.')">.</button>
+         <div class="buttons">
+        <button class="button" id="operator" onclick="displayClear()">C</button>
+        <button class="button" id="operator" onclick="toDisplay('/')"><i>/</i></button>
+        <button class="button" id="operator" onclick="toDisplay('*')">x</button>
+        <button class="button" id="operator" id="backspace" onclick="backspace()">⌫</button>
+      </div>
+      <div class="buttons">
+        <button class="button"  onclick="toDisplay('7')">7</button>
+        <button class="button"  onclick="toDisplay('8')">8</button>
+        <button class="button"  onclick="toDisplay('9')">9</button>
+        <button class="button" id="operator" onclick="square()"><i>x</i><sup>2</sup></button>
+      </div>
+      <div class="buttons">
+        <button class="button" onclick="toDisplay('4')">4</button>
+        <button class="button" onclick="toDisplay('5')">5</button>
+        <button class="button" onclick="toDisplay('6')">6</button>
+        <button class="button" id="operator" onclick="toDisplay('-')">-</button>
+      </div>
+      <div class="buttons">
+        <button class="button" onclick="toDisplay('1')">1</button>
+        <button class="button" onclick="toDisplay('2')">2</button>
+        <button class="button" onclick="toDisplay('3')">3</button>
+        <button class="button" id="operator" onclick="toDisplay('+')">+</button>
+          </div>
+          <div class="buttons">
+            <button class="button" onclick="toDisplay('%')">%</button>
             <button class="button" onclick="toDisplay('0')">0</button>
-            <button class="button" id="backspace" onclick="backspace()">⌫</button>
+            <button class="button" onclick="toDisplay('.')">.</button>
             <button class="button" id="equal" onclick="calculate()">=</button>
           </div>
     </div>
